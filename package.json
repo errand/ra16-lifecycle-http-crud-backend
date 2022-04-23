@@ -1,0 +1,30 @@
+{
+  "name": "ra16-lifecycle-http-crud-backend",
+  "version": "1.0.0",
+  "description": "Netology homeworks",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "yarn",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "Aleksandr Shatskih",
+  "license": "ISC",
+  "repository": "https://github.com/errand/ra16-lifecycle-http-crud-backend",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "core-js": "^3.20.2",
+    "forever": "^4.0.3",
+    "install": "^0.13.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "mime-type": "^4.0.0",
+    "npm": "^8.5.5",
+    "prop-types": "^15.8.1",
+    "uuid": "^8.3.2"
+  }
+}
